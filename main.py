@@ -1,4 +1,4 @@
-h"""
+"""
 PolitmaTrader X Posting Service
 
 A lightweight FastAPI microservice that receives webhook payloads
