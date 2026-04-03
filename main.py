@@ -1,4 +1,4 @@
-"""
+h"""
 PolitmaTrader X Posting Service
 
 A lightweight FastAPI microservice that receives webhook payloads
@@ -191,7 +191,7 @@ async def create_post(payload: PostRequest, request: Request):
             return {
                 "external_post_id": tweet_id,
                 "status": "published",
-                "message": f"Posted to X: https://x.com/politmatrader/status/{tweet_id}",
+                "message": f"Posted to X: https://x.com/Politmatrader26/status/{tweet_id}",
             }
         else:
             error_detail = response.text[:500]
